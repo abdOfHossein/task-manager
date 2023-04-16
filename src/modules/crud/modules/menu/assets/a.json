@@ -1,0 +1,95 @@
+{
+  id: 2,
+  label: 'Admin',
+  icon: 'bx-home-circle',
+
+  subItems: [
+    {
+      id: 2,
+      label: 'Dashboard',
+      link: '/admin/dashboard',
+      parentId: 2
+    },
+    {
+      id: 3,
+      label: 'Users',
+      link: '/admin/users',
+      parentId: 2
+    },
+    {
+      id: 4,
+      label: 'Project',
+      link: '/admin/project',
+      parentId: 2
+    },
+    {
+      id: 5,
+      label: 'Department',
+      link: '/admin/department',
+      parentId: 2
+    },
+    {
+      id: 6,
+      label: 'Task',
+      link: '/admin/task',
+      parentId: 2
+    },
+
+    {
+      id: 7,
+      label: 'Req',
+      link: '/admin/req',
+      parentId: 2
+    },
+    {
+      id: 8,
+      label: 'Role',
+      link: '/admin/role',
+      parentId: 2
+    },
+    {
+      id: 9,
+      label: 'FrontEnd',
+      link: '/admin/frontend',
+      parentId: 2
+    },
+    {
+      id: 9,
+      label: 'Menu',
+      link: '/admin/menu',
+      parentId: 2
+    },
+  ]
+},
+{
+id: 2,
+label: 'User',
+icon: 'bx-home-circle',
+
+subItems: [
+{
+id: 2,
+label: 'Dashboard',
+link: '/user/dashboard',
+parentId: 2
+},
+
+
+]
+},
+{
+id: 2,
+label: 'Manger',
+icon: 'bx-home-circle',
+
+subItems: [
+{
+id: 2,
+label: 'Dashboard',
+link: '/manger/dashboard',
+parentId: 2
+},
+
+
+]
+},

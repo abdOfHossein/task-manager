@@ -1,0 +1,51 @@
+services:
+  app:
+    # build:
+    # context: .
+    # dockerfile: Dockerfile
+    image: node:18-alpine
+    command: sh -c "npm install --legacy-peer-deps && npm run start:dev"
+    networks:
+      - app-network
+    ports:
+      - 5000:5000
+    working_dir: /app
+    volumes:
+      - ./:/app
+    environment:
+      # NODE_ENV: debug
+      APP_NAME: Task App
+      APP_ROUTE_BASE: http://localhost:{port}
+      APP_ENV: debug
+      APP_PORT: 5000
+      API_GLOBAL_PREFIX: api/v1
+      EMAIL_LINK: http://localhost:5173/auth/register/confirmEmail/?token=
+      JWT_SECRET: 215648anasfauf&*&%#$3saf
+      DB_HOST: postgres
+      DB_PORT: 5432
+      DB_DATABASE: 'task'
+      DB_USERNAME: postgres
+      DB_PASSWORD: 774936188
+      REDIS_HOST : redis,
+      REDIS_PORT : 6379,
+    depends_on:
+      - postgres
+      - redis
+  postgres:
+    image: postgres:14-alpine
+    networks:
+      - app-network
+    environment:
+      POSTGRES_HOST_AUTH_METHOD : trust
+      DB_PORT: 5432
+      DB_DATABASE: 'task'
+      DB_USERNAME: postgres
+      DB_PASSWORD: 774936188
+  redis:
+    image: redis:6.2.7-alpine3.17
+    networks:
+      - app-network
+    environment:
+      REDIS_PORT: 6379
+networks:
+  app-network:

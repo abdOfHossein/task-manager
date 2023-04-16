@@ -1,0 +1,99 @@
+{
+  "menu": {
+    "MENU_DOES_NOT_EXIST": "منو وجود ندارد",
+    "MENU_ALREADY_EXIST": "منو از قبل تعریف شده است",
+    "FRONT_DOES_NOT_EXIST": "ادرس فرانت تعریف نشده است",
+    "FRONT_ALREADY_EXIST": "ادرس فرانت از قبل تعریف شده است"
+  },
+  "public": {
+    "UUID_NOT_MATCH": "کد UUID متناظری وجود ندارد",
+    "PHONE_NUMBER_IS_NOT_VALID": "کد موبایل صحیح نمی باشد",
+    "PHONE_NUMBER_ALREADY_EXISTS": "شماره موبایل قبلا تعریف شده است",
+    "ACCESS_IS_DENIDE": "دسترسی به قسمت مورد نظر ندارید",
+    "COLUMN_NOT_EXISTS": "ستون مورد نظر وجود ندارد",
+    "DELETE_DENAY_RECORD_EXISTS_IN_RELATION": "داده مورد نظر در بانک اطلاعاتی دارای ارتباط می باشد",
+    "FIELD_DOES_NOT_EXIST": "ستون مورد نظر برای مرتب سازی وجود ندارد",
+    "MOBILE_AUTH_NOT_DECLARED": "شماره ای برای برداشت ارزی یا رمز ارز تعریف نشده است",
+    "PUBLIC_ERROR": "خطای عمومی رخ داده است",
+    "PHONE_NUMBER_DOES_NOT_EXISTS": "شماره موبایل مورد نظر وجود ندارد",
+    "ACCESS_DENIED_FOR_MODIFYING_PHONE_NUMBER": "برای ایجاد تغییر بر روی تلفن همراه دسترسی ندارید",
+    "DUPLICATE_VALUE_IN_UNIQUE_COLUMN": "یک ورودی تکراری برای ستونی که یونیک هست وارد کرده اید",
+    "INVALID_INPUT_FOR_ENUM": "تایپ ورودی برای فیلد اینام نامعتبر است",
+    "INPUT_TYPE_MUST_BE_STRING": "تایپ ورودی باید استرینگ باشد ",
+    "FIELD_MUST_FILL ": "پر کردن فیلد الزامی است",
+    "INPUT_TYPE_MUST_BE_INTEGER": "تایپ ورودی باید اینتیجر باشد ",
+    "INPUT_TYPE_MUST_BE_DATE": "تایپ ورودی باید تاریخ باشد ",
+    "INPUT_TYPE_MUST_BE_ARRAY":"تایپ ورودی باید آرایه باشد "
+  },
+  "crud_frontend": {
+    "CRUD_FRONTEND_NOT_EXISTS": "کراد فرانت اند وجود ندارد",
+    "CRUD_FRONTEND_ALREADY_EXISTS": "کراد فرانت اند از قبل تعریف شده است"
+  },
+  "crud_backend": {
+    "CRUD_BACKEND_NOT_EXISTS": "کراد بک اند وجود ندارد",
+    "ROUTE_ALREADY_EXISTS": "کراد بک اند از قبل تعریف شده است "
+  },
+  "crud_menu": {
+    "CRUD_MENU_NOT_EXISTS": "کراد منو وجود ندارد",
+    "CRUD_MENU_ALREADY_EXISTS": "کراد منو از قبل تعریف شده است "
+  },
+  "department_rl": {
+    "DEPARTMENT_RL_NOT_EXISTS": "دپارتمان ریلیشن(دپارتمان آر ال) وجود ندارد",
+    "DEPARTMENT_RL_ALREADY_EXISTS": "دپارتمان ریلیشن(دپارتمان آر ال) از قبل تعریف شده است "
+  },
+  "department": {
+    "DEPARTMENT_NOT_EXISTS": "دپارتمان وجود ندارد",
+    "DEPARTMENT_ALREADY_EXISTS": "دپارتمان از قبل تعریف شده است ",
+    "DEPARTMENT_HAS_USER": " دپارتمان شامل یوزر میباشد ابتدا یوزرهارا به دپارتمان دیگری انتقال دهید"
+  },
+  "event": {
+    "EVENT_NOT_EXISTS": "ایونت وجود ندارد",
+    "EVENT_ALREADY_EXISTS": " ایونت از قبل تعریف شده است "
+  },
+  "file_manager": {
+    "FILEMANAGER_NOT_EXISTS": "فایل منجر وجود ندارد",
+    "FILEMANAGER_ALREADY_EXISTS": "فایل منجر از قبل تعریف شده است "
+  },
+  "file": {
+    "FILE_NOT_EXISTS": "فایل وجود ندارد",
+    "FILE_ALREADY_EXISTS": "فایل از قبل تعریف شده است "
+  },
+  "message_user": {
+    "MESSAGE_USER_NOT_EXISTS": "مسج یوزر وجود ندارد",
+    "MESSAGE_USER_ALREADY_EXISTS": "مسج یوزر از قبل تعریف شده است "
+  },
+  "message": {
+    "MESSAGE_NOT_EXISTS": "مسج وجود ندارد",
+    "MESSAGE_ALREADY_EXISTS": "مسج از قبل تعریف شده است "
+  },
+  "project": {
+    "PROJECT_NOT_EXISTS": "پروژه وجود ندارد",
+    "PROJECT_ALREADY_EXISTS": "پروژه از قبل تعریف شده است "
+  },
+  "rel_task": {
+    "REL_TASK_NOT_EXISTS": "ریلیشن تسک(رل تسک) وجود ندارد",
+    "REL_TASK_ALREADY_EXISTS": "ریلیشن تسک(رل تسک) از قبل تعریف شده است "
+  },
+  "req": {
+    "REQ_NOT_EXISTS": "ریکوئست وجود ندارد",
+    "REQ_ALREADY_EXISTS": "ریکوئست از قبل تعریف شده است "
+  },
+  "role": {
+    "ROLE_NOT_EXISTS": "رول وجود ندارد",
+    "ROLE_NOT_ALREADY_EXISTS": "رول از قبل تعریف شده است "
+  },
+  "task_block_operation": {
+    "TASK_BLOCK_OPERATION_NOT_EXISTS": "تسک_بلاک_آپریشین وجود ندارد",
+    "TASK_BLOCK_OPERATION_ALREADY_EXISTS": "تسک_بلاک_آپریشین از قبل تعریف شده است "
+  },
+  "task": {
+    "TASK_NOT_EXISTS": "تسک وجود ندارد",
+    "TASK_ALREADY_EXISTS": "تسک از قبل تعریف شده است "
+  },
+  "user": {
+    "USER_NOT_EXISTS": "یوزر وجود ندارد",
+    "USER_ALREADY_EXISTS": "یوزر از قبل تعریف شده است ",
+    "USER_DOES_NOT_HAVE_THIS_ROLE": "این یوزر رول وارد شده را ندارد",
+    "USER_MUST_ATLEAST_HAS_ONE_ROLE":"یوزر باید حداقل یک رول داشته باشد ,نمی توان همه رول هارا حذف کرد"
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "menu": {
+    "MENU_DOES_NOT_EXIST": "Menu Does Not Exist",
+    "MENU_ALREADY_EXIST": "Menu Already Exist",
+    "FRONT_DOES_NOT_EXIST": "Front Does Not Exist",
+    "FRONT_ALREADY_EXIST": "Front Already Exist"
+  },
+  "public": {
+    "UUID_NOT_MATCH": "UUID not matched",
+    "PHONE_NUMBER_IS_NOt_VALID": "Phone number is not valid",
+    "PHONE_NUMBER_ALREADY_EXISTS": "Phone number already exists",
+    "ACCESS_IS_DENIDE": "Access Is Denide",
+    "COLUMN_NOT_EXISTS": "Column  Not Exists",
+    "DELETE_DENAY_RECORD_EXISTS_IN_RELATION": "This Record Already Relation In DataBase",
+    "FIELD_DOES_NOT_EXIST": "Field Does Not Exist",
+    "MOBILE_AUTH_NOT_DECLARED": "Mobile Authenticate Not Exists",
+    "PUBLIC_ERROR": "Public Error",
+    "PHONE_NUMBER_DOES_NOT_EXISTS": "Phone number does not exists",
+    "ACCESS_DENIED_FOR_MODIFYING_PHONE_NUMBER": "Access Denied For Modifying Phone Number",
+    "DUPLICATE_VALUE_IN_UNIQUE_COLUMN": "You Entered Duplicate Key For a Unique Column",
+    "INVALID_INPUT_FOR_ENUM": "Invalide input for enum type",
+    "INPUT_TYPE_MUST_BE_STRING": "input type must be string",
+    "FIELD_MUST_FILL ": "field must fill",
+    "INPUT_TYPE_MUST_BE_INTEGER": "input type must be integer",
+    "INPUT_TYPE_MUST_BE_DATE": "input type must be date",
+    "INPUT_TYPE_MUST_BE_ARRAY": "input type must be array "
+  },
+  "crud_frontend": {
+    "CRUD_FRONTEND_NOT_EXISTS": "Crud frontend does not exists",
+    "CRUD_FRONTEND_ALREADY_EXISTS": "Crud Frontend already exist"
+  },
+  "crud_backend": {
+    "CRUD_BACKEND_NOT_EXISTS": "Crud backend does not exists",
+    "ROUTE_ALREADY_EXISTS": "Route Already Exist"
+  },
+  "crud_menu": {
+    "CRUD_MENU_NOT_EXISTS": "Crud menu does not exists",
+    "CRUD_MENU_ALREADY_EXISTS": "Crud Frontend already exist"
+  },
+  "department_rl": {
+    "DEPARTMENT_RL_NOT_EXISTS": "DepartmentRl does not exists",
+    "DEPARTMENT_RL_ALREADY_EXISTS": "DepartmentRl already exist"
+  },
+  "department": {
+    "DEPARTMENT_NOT_EXISTS": "Department does not exists",
+    "DEPARTMENT_ALREADY_EXISTS": "Department already exist",
+    "DEPARTMENT_HAS_USER": "Department has users, first transfer them to another department"
+  },
+  "event": {
+    "EVENT_NOT_EXISTS": "Event does not exists",
+    "EVENT_ALREADY_EXISTS": "Event already exist"
+  },
+  "file_manager": {
+    "FILEMANAGER_NOT_EXISTS": "File_manager does not exists",
+    "FILEMANAGER_ALREADY_EXISTS": "File_manager already exist"
+  },
+  "file": {
+    "FILE_NOT_EXISTS": "File does not exists",
+    "FILE_ALREADY_EXISTS": "File already exist"
+  },
+  "message_user": {
+    "MESSAGE_USER_NOT_EXISTS": "Message_user does not exists",
+    "MESSAGE_USER_ALREADY_EXISTS": "Message_user already exist"
+  },
+  "message": {
+    "MESSAGE_NOT_EXISTS": "Message does not exists",
+    "MESSAGE_ALREADY_EXISTS": "Message already exist"
+  },
+  "project": {
+    "PROJECT_NOT_EXISTS": "Project does not exists",
+    "PROJECT_ALREADY_EXISTS": "Project already exist"
+  },
+  "rel_task": {
+    "REL_TASK_NOT_EXISTS": "Rel_task does not exists",
+    "REL_TASK_ALREADY_EXISTS": "Rel_task already exist"
+  },
+  "req": {
+    "REQ_NOT_EXISTS": "Req does not exists",
+    "REQ_ALREADY_EXISTS": "Req already exist"
+  },
+  "role": {
+    "ROLE_NOT_EXISTS": "Role does not exists",
+    "ROLE_NOT_ALREADY_EXISTS": "Role already exist"
+  },
+  "task_block_operation": {
+    "TASK_BLOCK_OPERATION_NOT_EXISTS": "Task_block_operation does not exists",
+    "TASK_BLOCK_OPERATION_ALREADY_EXISTS": "Task_block_operation already exist"
+  },
+  "task": {
+    "TASK_NOT_EXISTS": "TASK does not exists",
+    "TASK_ALREADY_EXISTS": "TASK already exist"
+  },
+  "user": {
+    "USER_NOT_EXISTS": "User does not exists",
+    "USER_ALREADY_EXISTS": "User already exist",
+    "USER_DOES_NOT_HAVE_THIS_ROLE": "This user does not have this Role!!!",
+    "USER_MUST_ATLEAST_HAS_ONE_ROLE": " user must has atleast one role,can't delete all role"
+  }
+}
